@@ -1,0 +1,3 @@
+PageRank and Link Analysis
+
+PageRank models a random surfer who follows links and occasionally jumps to a random page. The probability of being on a page after many steps is its rank, computed by repeated multiplication of the transition matrix until it converges. A damping factor around 0.85 handles dead ends and spider traps. Pages linked from many important pages become important themselves. Search engines combine this link signal with text relevance such as TF-IDF when ordering results.

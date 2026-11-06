@@ -1,0 +1,3 @@
+Ethernet and Switching
+
+Ethernet frames carry source and destination MAC addresses and a checksum for error detection. A switch learns which port each address lives on by watching incoming frames, then forwards frames only where needed instead of flooding every port. Virtual LANs split one physical network into several broadcast domains. The spanning tree protocol disables redundant links to prevent switching loops. Collisions were a problem on shared media with CSMA/CD, but full duplex switched networks have effectively removed them.

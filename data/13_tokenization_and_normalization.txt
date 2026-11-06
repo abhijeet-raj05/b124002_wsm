@@ -1,0 +1,3 @@
+Tokenization and Normalization
+
+Tokenization splits text into units, and the choices matter: should don't become one token or two, and how should hyphens, numbers and email addresses be treated? Normalization maps variants to a shared form. Case folding turns Network and NETWORK into the same term, and removing accents lets cafe match café. Stemming and lemmatisation go further by reducing running and runs to run. The same steps must be applied to documents and to queries, otherwise the index and the query will never meet.

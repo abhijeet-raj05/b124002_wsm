@@ -1,0 +1,3 @@
+Wildcard Queries and Permuterm Indexes
+
+A wildcard query such as net* or *ing needs more than a plain dictionary lookup. A trie or sorted vocabulary answers prefix queries quickly, but a leading wildcard requires another structure. The permuterm index stores every rotation of each term with a terminator symbol, so a wildcard in any position can be rotated to the end and answered as a prefix search. The cost is a much larger dictionary. K-gram indexes are the alternative, matching candidate terms through shared character sequences before filtering.

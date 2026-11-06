@@ -1,0 +1,3 @@
+Boolean Retrieval
+
+Boolean retrieval answers queries built from terms joined by AND, OR and NOT. An AND query intersects postings lists, OR takes their union, and NOT removes documents from a result. Processing the rarest terms first keeps intermediate lists short. The model is precise and predictable, which professional searchers like, but it has no notion of ranking: a document either matches or it does not. Extended Boolean and ranked models were introduced to order results by relevance.

@@ -1,0 +1,3 @@
+Web Crawling
+
+A crawler starts from seed pages, downloads them, extracts links and adds new addresses to a frontier queue. Politeness rules respect robots.txt and limit requests per host. The crawler must detect duplicate and near duplicate pages and avoid spider traps that generate endless links. Freshness matters, so pages that change often are revisited sooner. Large crawlers distribute the frontier across many machines and hash host names to keep each site on one worker.

@@ -1,0 +1,3 @@
+CPU Process Scheduling
+
+The scheduler decides which ready process runs next. First come first served is simple but lets long jobs block short ones. Shortest job first minimises average waiting time but needs burst predictions. Round robin gives each process a time quantum, trading responsiveness against context switch overhead. Priority scheduling can starve low priority work unless aging raises priority over time. Multilevel feedback queues move processes between queues based on observed behaviour.

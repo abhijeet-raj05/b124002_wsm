@@ -1,0 +1,3 @@
+UDP and the Domain Name System
+
+UDP is a connectionless transport protocol: no handshake, no retransmission and no ordering guarantees. That lightness makes it ideal for DNS queries, streaming and games, where a late packet is worse than a lost one. The Domain Name System translates host names into IP addresses using a hierarchy of root, top-level domain and authoritative name servers. Resolvers cache answers to reduce latency, and each record carries a time to live. A typical lookup is one UDP request and one response, falling back to TCP when the answer is too large.

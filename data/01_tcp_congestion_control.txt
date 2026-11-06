@@ -1,0 +1,3 @@
+TCP Congestion Control
+
+TCP controls how fast a sender pushes packets into the network. Slow start doubles the congestion window every round trip until it reaches a threshold, after which congestion avoidance grows it by one segment per round trip. When packet loss is detected through timeouts or duplicate acknowledgements, the sender cuts its window and probes again. Fast retransmit and fast recovery avoid waiting for a full timeout. Congestion control keeps a shared network usable, while flow control protects the receiver's buffer. Variants such as Reno, CUBIC and BBR differ in how they estimate available bandwidth and react to loss.

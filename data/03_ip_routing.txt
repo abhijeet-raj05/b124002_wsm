@@ -1,0 +1,3 @@
+IP Routing and Forwarding
+
+A router forwards each packet by matching its destination address against a forwarding table using longest prefix match. Routing protocols build that table. Link state protocols such as OSPF flood the topology and run Dijkstra's shortest path algorithm, while distance vector protocols such as RIP exchange cost estimates with neighbours. Between autonomous systems the internet relies on BGP, which applies policy rather than pure shortest path. Subnetting and CIDR keep routing tables small by aggregating prefixes, and the time to live field stops packets from circling forever.

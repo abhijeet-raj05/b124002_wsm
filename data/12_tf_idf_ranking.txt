@@ -1,0 +1,3 @@
+TF-IDF Ranking
+
+TF-IDF scores a document for a query by combining term frequency with inverse document frequency. A term that appears often in a document suggests relevance, while a term that appears in nearly every document says little, so its weight is reduced by the inverse document frequency. Sublinear scaling, using one plus the logarithm of the frequency, stops repeated words from dominating. Dividing by document length keeps long documents from winning unfairly. BM25 refines the idea with saturation and length normalisation parameters.

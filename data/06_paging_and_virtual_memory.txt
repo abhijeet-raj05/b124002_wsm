@@ -1,0 +1,3 @@
+Paging and Virtual Memory
+
+Paging divides a process's address space into fixed size pages and physical memory into frames. The page table maps each virtual page to a frame, and the memory management unit performs the translation on every access. A translation lookaside buffer caches recent mappings so most lookups avoid a trip to memory. Virtual memory lets a program use more address space than physical memory by keeping some pages on disk. A page fault traps to the operating system, which loads the missing page and restarts the instruction. Multilevel page tables keep the table itself small.

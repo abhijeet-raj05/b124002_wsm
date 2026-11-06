@@ -1,0 +1,3 @@
+Page Replacement Algorithms
+
+When memory is full the operating system must evict a page. FIFO removes the oldest page but suffers from Belady's anomaly. The optimal algorithm evicts the page used farthest in the future and serves as a benchmark. Least recently used approximates it using recent history, and the clock algorithm gives a cheap approximation with a reference bit. If a process has too few frames it spends its time swapping pages, a state known as thrashing. The working set model tracks the pages a process actively needs.

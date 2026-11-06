@@ -1,0 +1,3 @@
+Wireless Networks and Wi-Fi
+
+Wi-Fi shares a radio channel, so stations use CSMA/CA: listen first, wait a random backoff, then transmit and expect an acknowledgement. The hidden terminal problem, where two stations cannot hear each other but both reach the access point, is reduced with RTS and CTS control frames. Signal strength falls with distance and walls, so rates adapt dynamically. Cellular networks add handover between towers, and newer standards use multiple antennas and wider channels to raise throughput.
